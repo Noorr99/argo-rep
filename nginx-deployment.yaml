@@ -26,7 +26,7 @@ kind: Service
 metadata:
   name: nginx
 spec:
-  type: LoadBalancer  # Change to LoadBalancer
+  type: LoadBalancer  # Update service type to LoadBalancer
   ports:
     - port: 80
       targetPort: 80
